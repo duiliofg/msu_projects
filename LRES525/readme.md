@@ -6,9 +6,9 @@ This repository contains two Python scripts that utilize deep-learning technique
 
 The project is structured around two main scripts:
 
-1. **hyperspectral_cnn_model_v1.py** - This script demonstrates loading hyperspectral images, extracting labeled data using vector shapes, and training a convolutional neural network with dropout and batch normalization layers.
+1. **zehnder_cnn.py** - This script demonstrates loading hyperspectral images, extracting labeled data using vector shapes, and training a convolutional neural network with dropout and batch normalization layers.
 
-2. **hyperspectral_cnn_model_v2.py** - An advanced version that includes different configurations for the convolutional layers and explores over-sampling techniques to handle class imbalance. It also implements a rigorous evaluation strategy using precision and F1 score metrics.
+2. **paoletti_cnn.py** - An advanced version that includes different configurations for the convolutional layers and explores over-sampling techniques to handle class imbalance. It also implements a rigorous evaluation strategy using precision and F1 score metrics.
 
 Both scripts are designed to handle the challenges of hyperspectral image processing, such as high dimensionality and class imbalance, making them suitable for environmental and cryospheric studies.
 
